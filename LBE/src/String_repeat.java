@@ -1,13 +1,11 @@
-package com.company;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Main {
+public class String_repeat {
 
     public static void main(String[] args) {
-	// write your code here
+        // write your code here
         Scanner sc = new Scanner(System.in);
         int cnt = sc.nextInt();
 
@@ -18,7 +16,7 @@ public class Main {
                 sc.nextLine();
             }
 
-            String s = sc.nextLine();
+            java.lang.String s = sc.nextLine();
 
             for (int i = 0; i < s.length() - 2; i++) {
                 for (int j = 0; j < s.charAt(0) - 48; j++) {
@@ -26,7 +24,7 @@ public class Main {
                 }
             }
 
-            String result_string = "";
+            java.lang.String result_string = "";
             for (int i=0;i<result.size();i++) {
                 result_string += result.get(i);
             }
