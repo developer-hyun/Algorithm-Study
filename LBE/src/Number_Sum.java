@@ -1,11 +1,7 @@
-package com.company;
-
 import java.util.Scanner;
 
-public class Main {
-
+public class Number_Sum {
     public static void main(String[] args) {
-	// write your code here
         Scanner sc = new Scanner(System.in);
         int cnt = sc.nextInt();
 
