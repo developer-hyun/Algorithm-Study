@@ -1,13 +1,10 @@
-package com.company;
-
 import java.util.Scanner;
 
-public class Main {
-
-    public static void main(String[] args) {
-	// write your code here
+public class Alphabet {
+    public static void main(java.lang.String[] args) {
+        // write your code here
         Scanner sc = new Scanner(System.in);
-        String s = sc.next();
+        java.lang.String s = sc.next();
 
         for(int i=97;i<123;i++) {
             boolean find = false;
