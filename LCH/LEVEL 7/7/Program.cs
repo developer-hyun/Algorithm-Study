@@ -7,7 +7,9 @@ namespace _7
         static void Main(string[] args)
         {
             string input = Console.ReadLine();
+
             string[] array = input.Split(" ");
+
             char[] a = array[0].ToCharArray();
             char[] b = array[1].ToCharArray();
 
