@@ -6,35 +6,19 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String s = sc.next().toUpperCase();
-        String dupCheck = " ";
-        for(int i=0;i<s.length();i++) {
-            boolean dup = false;
-            for(int j=0;j<dupCheck.length();j++) {
-                if(s.charAt(i) == dupCheck.charAt(j)) {
-                    dup = true;
-                }
-            }
-            if(!dup) {
-                dupCheck += s.charAt(i);
-            }
+        java.lang.String s = sc.nextLine();
+        String str1 = new String();
+        String str2 = new String();
+        for(int i = 2 ; i >= 0 ; i--) {
+            str1 += String.valueOf(s.charAt(i));
         }
-        int max = 0;
-        String word = "";
-        for(int i=1;i<dupCheck.length();i++) {
-            int cnt = 0;
-            for(int j=0;j<s.length();j++) {
-                if (s.charAt(j) == dupCheck.charAt(i)) {
-                    cnt++;
-                }
-            }
-            if(cnt > max) {
-                max = cnt;
-                word = String.valueOf(dupCheck.charAt(i));
-            } else if(cnt == max) {
-                word = "?";
-            }
+        for(int i = 6 ; i >= 4 ; i--) {
+            str2 += String.valueOf(s.charAt(i));
         }
-        System.out.println(word);
+        if(Integer.parseInt(str1) > Integer.parseInt(str2)) {
+            System.out.println(str1);
+        } else {
+            System.out.println(str2);
+        }
     }
 }
