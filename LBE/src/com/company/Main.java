@@ -5,25 +5,20 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        while(true) {
-            Scanner sc = new Scanner(System.in);
-            String s = sc.nextLine();
-            int cnt = 0;
-
-            for(int i=0; i<s.length();i++) {
-                String c = String.valueOf(s.charAt(i));
-                if(c.isBlank()) {
-                    cnt++;
-                }
-            }
-
-            if(String.valueOf(s.charAt(0)).isBlank()) {
-                cnt--;
-            }
-            if (String.valueOf(s.charAt(s.length()-1)).isBlank()) {
-                cnt--;
-            }
-            System.out.println(cnt + 1);
+        Scanner sc = new Scanner(System.in);
+        java.lang.String s = sc.nextLine();
+        String str1 = new String();
+        String str2 = new String();
+        for(int i = 2 ; i >= 0 ; i--) {
+            str1 += String.valueOf(s.charAt(i));
+        }
+        for(int i = 6 ; i >= 4 ; i--) {
+            str2 += String.valueOf(s.charAt(i));
+        }
+        if(Integer.parseInt(str1) > Integer.parseInt(str2)) {
+            System.out.println(str1);
+        } else {
+            System.out.println(str2);
         }
     }
 }
