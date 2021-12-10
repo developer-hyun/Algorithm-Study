@@ -1,13 +1,11 @@
-package com.company;
-
 import java.util.Scanner;
 
-public class Main {
+public class Word_Study {
 
-    public static void main(String[] args) {
+    public static void main(java.lang.String[] args) {
         Scanner sc = new Scanner(System.in);
-        String s = sc.next().toUpperCase();
-        String dupCheck = " ";
+        java.lang.String s = sc.next().toUpperCase();
+        java.lang.String dupCheck = " ";
         for(int i=0;i<s.length();i++) {
             boolean dup = false;
             for(int j=0;j<dupCheck.length();j++) {
@@ -20,7 +18,7 @@ public class Main {
             }
         }
         int max = 0;
-        String word = "";
+        java.lang.String word = "";
         for(int i=1;i<dupCheck.length();i++) {
             int cnt = 0;
             for(int j=0;j<s.length();j++) {
@@ -30,7 +28,7 @@ public class Main {
             }
             if(cnt > max) {
                 max = cnt;
-                word = String.valueOf(dupCheck.charAt(i));
+                word = java.lang.String.valueOf(dupCheck.charAt(i));
             } else if(cnt == max) {
                 word = "?";
             }
@@ -38,3 +36,4 @@ public class Main {
         System.out.println(word);
     }
 }
+
