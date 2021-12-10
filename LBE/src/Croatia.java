@@ -1,10 +1,8 @@
-package com.company;
-
 import java.util.Scanner;
 
-public class Main {
+public class Croatia {
 
-    public static void main(String[] args) {
+    public static void main(java.lang.String[] args) {
         Scanner sc = new Scanner(System.in);
         java.lang.String s = sc.nextLine();
 
