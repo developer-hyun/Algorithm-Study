@@ -1,10 +1,8 @@
-package com.company;
-
 import java.util.Scanner;
 
-public class Main {
+public class Group_Word_Checkers {
 
-    public static void main(String[] args) {
+    public static void main(java.lang.String[] args) {
         Scanner sc = new Scanner(System.in);
         int cnt = sc.nextInt();
         int word_count = 0;
@@ -12,7 +10,7 @@ public class Main {
             if(i == 0) {
                 sc.nextLine();
             }
-            String str = sc.nextLine();
+            java.lang.String str = sc.nextLine();
 
             if(get_word_count(str)) {
                 word_count++;
@@ -21,9 +19,9 @@ public class Main {
         System.out.println(word_count);
     }
 
-    public static boolean get_word_count(String str) {
+    public static boolean get_word_count(java.lang.String str) {
 
-        String change_word = new String();
+        java.lang.String change_word = new java.lang.String();
         change_word += str.charAt(0);
         int j=0;
         for(int i=0; i<str.length();i++) {
@@ -42,3 +40,4 @@ public class Main {
         return true;
     }
 }
+
