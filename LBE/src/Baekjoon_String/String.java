@@ -1,3 +1,5 @@
+package Baekjoon_String;
+
 import java.util.Scanner;
 
 public class String {

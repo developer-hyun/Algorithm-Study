@@ -1,3 +1,5 @@
+package Baekjoon_String;
+
 import java.util.Scanner;
 
 public class Integer {
@@ -14,8 +16,8 @@ public class Integer {
             str2 += java.lang.String.valueOf(s.charAt(i));
         }
 
-        //Integer.parseInt main에서는 작동하는데 여기서는 안됨
-//        if(Integer.parseInt(str1) > Integer.parseInt(str2)) {
+        //Baekjoon_String.Integer.parseInt main에서는 작동하는데 여기서는 안됨
+//        if(Baekjoon_String.Integer.parseInt(str1) > Baekjoon_String.Integer.parseInt(str2)) {
             System.out.println(str1);
 //        } else {
 //            System.out.println(str2);
