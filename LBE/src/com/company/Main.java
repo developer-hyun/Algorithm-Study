@@ -3,24 +3,35 @@ package com.company;
 import java.util.Scanner;
 
 public class Main {
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        long point = sc.nextLong();
-        if(point == 1) {
-            System.out.println(1);
-        } else {
-            long six_level = 7;
-            long count = 2;
-            while(true) {
-                if(point <= six_level) {
-                    System.out.println(count);
-                    break;
+//        while(true) {
+            int point = sc.nextInt();
+            int count = 0;
+            boolean turn = true;
+            int limit = 1;
+            while(turn) {
+                if(limit % 2 == 0) {
+                    for(int i=1;i<limit+1;i++) {
+                        count++;
+                        if(count == point) {
+                            System.out.println(i+"/"+(limit-i+1));
+                            turn = false;
+                            break;
+                        }
+                    }
                 } else {
-                    six_level += 6*count;
-                    count++;
+                    for(int i=1;i<limit+1;i++) {
+                        count++;
+                        if(count == point) {
+                            System.out.println((limit-i+1)+"/"+i);
+                            turn = false;
+                            break;
+                        }
+                    }
                 }
+                limit++;
             }
-        }
+//        }
     }
 }
