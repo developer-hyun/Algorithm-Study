@@ -34,7 +34,7 @@ namespace _10
                         {
                             break;
                         }
-                        else // 아니면 추가
+                        else
                         {
                             array.Add(input[i].ToString());
                         }
