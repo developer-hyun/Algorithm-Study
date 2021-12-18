@@ -8,27 +8,26 @@ public class Main {
         int t = sc.nextInt();
         while(t > 0) {
             int h = sc.nextInt(); //층수
-            int w = sc.nextInt(); //방수
-            int n = sc.nextInt(); // 몇 번째 고객
-            int cnt = 0;
-
-            for(int i=1;i<w+1;i++) {
-                for(int j=1;j<h+1;j++) {
-                    cnt++;
-                    if(cnt == n) {
-                        String room = room_number(j,i);
-                        System.out.println(room);
+            int w = sc.nextInt(); //호수
+            int[][] live_people = new int[h+1][w+1];
+            for(int i=0;i<h+1;i++) {
+                for(int j=0;j<w+1;j++) {
+                    if(i == 0) {
+                        live_people[i][j] = j+1;
+                    } else {
+                        live_people[i][j] = live_people_cnt(i-1,j,live_people);
                     }
                 }
             }
+            System.out.println(live_people[h][w-1]);
             t--;
         }
     }
-    private static String room_number(int j, int i) { //방 번호 return
-        if(i<10) {
-            return j+"0"+i;
-        } else {
-            return String.valueOf(j)+String.valueOf(i);
+    private static int live_people_cnt(int h, int w,int[][] people) { //방 번호 return
+        int w_count = 0;
+        for(int j=0;j<w+1;j++) {
+            w_count += people[h][j];
         }
+        return w_count;
     }
 }
