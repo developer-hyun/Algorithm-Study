@@ -24,7 +24,6 @@ namespace _6
 
                 for (int i = 1; i < k + 1; i++)
                 {
-                    Console.WriteLine("시작 : " + i);
                     for (int j = 1; j < n; j++)
                     {
                         room[j, i] = room[j, i - 1] + room[j - 1, i]; //4층 4호에 사는사람은 4층 3호에 사는 사람 수 + 3층 4호에 사는 사람 수
