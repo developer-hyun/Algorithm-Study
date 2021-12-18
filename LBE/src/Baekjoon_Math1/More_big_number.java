@@ -1,9 +1,9 @@
-package com.company;
+package Baekjoon_Math1;
 
 import java.util.Scanner;
 import java.math.BigInteger;
 
-public class Main {
+public class More_big_number {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         // long 범위 ~ 9,223,372,036,854,775,808
@@ -14,5 +14,4 @@ public class Main {
         System.out.println(number1.add(number2));
     }
 }
-
 
