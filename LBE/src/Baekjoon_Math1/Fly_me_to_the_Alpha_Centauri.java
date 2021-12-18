@@ -1,8 +1,8 @@
-package com.company;
+package Baekjoon_Math1;
 
 import java.util.Scanner;
 
-public class Main {
+public class Fly_me_to_the_Alpha_Centauri {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int T = sc.nextInt();
@@ -19,7 +19,7 @@ public class Main {
 //import java.util.Scanner;
 //import java.math.BigInteger;
 //
-//public class Main {
+//public class Fly_me_to_the_Alpha_Centauri {
 //    public static void main(String[] args) {
 //        Scanner sc = new Scanner(System.in);
 //        int T = sc.nextInt();
@@ -66,7 +66,7 @@ public class Main {
 /* 재귀 함수 */
 //import java.util.Scanner;
 //
-//public class Main {
+//public class Fly_me_to_the_Alpha_Centauri {
 //    public static void main(String[] args) {
 //        Scanner sc = new Scanner(System.in);
 //
