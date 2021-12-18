@@ -48,8 +48,11 @@ public class Suger_deliver {
     private static int deliver_divide_two_number(int deliver, int i, int i1) {
         int min = 10000;
         int deliver_i = deliver / i;
+
         for(int f=1;f<deliver_i+1;f++) {
+
             int tmp = deliver - i*f;
+
             if(tmp % i1 == 0) {
                 if(min > tmp / i1 + f) {
                     min = tmp / i1 + f;
