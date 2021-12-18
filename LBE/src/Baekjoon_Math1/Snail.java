@@ -31,7 +31,7 @@ public class Snail {
         int tree_length = Integer.parseInt(st.nextToken());
         int start = (tree_length - up);
         int day = up-down;
-        
+
         if(start == 0) {
             System.out.println(1);
         } else {
