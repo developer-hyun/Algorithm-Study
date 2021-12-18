@@ -5,29 +5,59 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int t = sc.nextInt();
-        while(t > 0) {
-            int h = sc.nextInt(); //층수
-            int w = sc.nextInt(); //호수
-            int[][] live_people = new int[h+1][w+1];
-            for(int i=0;i<h+1;i++) {
-                for(int j=0;j<w+1;j++) {
-                    if(i == 0) {
-                        live_people[i][j] = j+1;
+        int deliver = sc.nextInt();
+        int case1 = deliver_divide_one_number(deliver,5);
+        int case2 = deliver_divide_one_number(deliver,3);
+        int case3 = deliver_divide_two_number(deliver,5,3);
+
+        if(case1 == 10000 && case2 == 10000 && case3 == 10000) {
+            System.out.println(-1);
+        } else {
+            if(case1 < case2) {
+                if(case1 < case3) {
+                    System.out.println(case1);
+                } else {
+                    if(case2 < case3) {
+                        System.out.println(case2);
                     } else {
-                        live_people[i][j] = live_people_cnt(i-1,j,live_people);
+                        System.out.println(case3);
+                    }
+                }
+            } else {
+                if(case2 < case3) {
+                    System.out.println(case2);
+                } else {
+                    if(case1 < case3) {
+                        System.out.println(case1);
+                    } else {
+                        System.out.println(case3);
                     }
                 }
             }
-            System.out.println(live_people[h][w-1]);
-            t--;
         }
     }
-    private static int live_people_cnt(int h, int w,int[][] people) { //방 번호 return
-        int w_count = 0;
-        for(int j=0;j<w+1;j++) {
-            w_count += people[h][j];
+
+    private static int deliver_divide_one_number(int deliver, int i) {
+        if(deliver % i == 0) {
+            return deliver/i;
+        } else {
+            return 10000;
         }
-        return w_count;
+    }
+
+    private static int deliver_divide_two_number(int deliver, int i, int i1) {
+        int min = 10000;
+        int deliver_i = deliver / i;
+        for(int f=1;f<deliver_i+1;f++) {
+            int tmp = deliver - i*f;
+            if(tmp % i1 == 0) {
+                if(min > tmp / i1 + f) {
+                    min = tmp / i1 + f;
+                }
+            }
+        }
+        return min;
     }
 }
+
+
