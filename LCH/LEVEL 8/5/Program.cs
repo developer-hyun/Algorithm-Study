@@ -17,7 +17,7 @@ namespace _5
                 double N = Convert.ToInt32(inputData[2]); //10
                                 
                 double X = Math.Ceiling(N / H); //2
-                double Y = Math.Ceiling(N % H); //4
+                double Y = N % H; //4
                 string output;
                 if (Y == 0) //0이라는 뜻은 꼭대기 층을 의미함
                     Y = H; 
