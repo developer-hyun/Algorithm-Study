@@ -6,24 +6,28 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 
 public class Factorization {
-    public static void main(String[] args) throws IOException {
-//        long start = System.currentTimeMillis();
+    public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuffer sb = new StringBuffer();
-        int N = Integer.parseInt(br.readLine());
-        if (N != 1) {
-            int i = 2;
-            while(N >= i) {
-                if(N % i == 0) {
-                    System.out.println(i);
-                    N /= i;
-                } else {
-                    i++;
+        String[] s = br.readLine().split(" ");
+        int m = Integer.parseInt(s[0]);
+        int n = Integer.parseInt(s[1]);
+        for(int i=m;i<=n;i++) {
+            if(i!= 1) {
+                if(!check_not_decimal(i)) {
+                    sb.append(i).append("\n");
                 }
             }
         }
-//        long end = System.currentTimeMillis();
-//        System.out.println(end - start);
+        System.out.println(sb);
+    }
+    public static boolean check_not_decimal(int n) {
+        for(int i=2; i<=Math.sqrt(n);i++) {
+            if(n % i == 0) {
+                return true;
+            }
+        }
+        return false;
     }
 }
 
