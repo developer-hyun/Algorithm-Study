@@ -14,30 +14,37 @@ namespace _4
             string[] inputdata = input.Split(' ');
             int M = Convert.ToInt32(inputdata[0]);
             int N = Convert.ToInt32(inputdata[1]);
-            List<int> DecimalList = new List<int>();
-            bool[] check = new bool[N+1];
+            List<int> desimalList = new List<int>();
             for (int i = M; i <= N; i++)
             {
                 if (i == 1)
                     continue;
-
-                DecimalList.Add(i);
-            }
-            for (int i = 0; i < N+1; i++)
-                check[i] = false;
-            for (int n  = 2; n <= N; n++)
-            {
-                for (int i = 0; (n * n) + (i * n) <= N; i++)
+                if (i == 2 | i == 3)
+                    desimalList.Add(i);
+                if (i % 2 == 0)
+                    continue;
+                double sqrt = Math.Truncate(Math.Sqrt(i));
+                //제곱근 이하의 수에서 나누어 떨어지지 않으면 소수이므로 제곱근의 버림값을 저장
+                for (int j = 2; j <= sqrt; j++)
                 {
-                    DecimalList.Remove((n * n) + (i * n));
+                    if (i % j == 0)
+                    {
+                        break;
+                    }
+                    else
+                    {
+                        if (j == sqrt)
+                        {
+                            desimalList.Add(i);
+                        }
+                    }
                 }
-
             }
-            foreach (var item in DecimalList)
+            foreach (var item in desimalList)
             {
                 Console.WriteLine(item);
             }
-            Console.ReadLine();
+            Console.ReadKey();
         }
     }
 }
