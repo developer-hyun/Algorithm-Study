@@ -3,7 +3,7 @@
 	나머지가 0이 나오면 i 출력 후 몫을 N에 저장
 	0이 아니면 루프에서 나옴*/
 
-
+	/*
 #include <iostream>
 
 using namespace std;
@@ -28,4 +28,4 @@ int main()
 	}
 
 	return 0;
-}
+}*/
