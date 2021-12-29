@@ -1,4 +1,4 @@
-package com.company;
+package Baekjoon_Math2;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -13,7 +13,7 @@ import java.io.InputStreamReader;
               만족시키는 점 (x,y)의 집합이 된다. 이 집합은 원이 아닌 두 대각선의 길이가 같은 다이아몬드 모양의 정사각형을 만든다.
         원 넓이 : 2*r^2
 */
-public class Main {
+public class taxi_geometry {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int r = Integer.parseInt(br.readLine());
