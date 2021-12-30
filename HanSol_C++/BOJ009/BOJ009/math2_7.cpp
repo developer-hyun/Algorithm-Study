@@ -2,7 +2,7 @@
 /*w, h는 x, y보다 크니까 w = w - x, h = h - y 로 변환
 min함수를 사용해서 가장 작은 수 출력*/
 
-
+/*
 #include <iostream>
 #include <algorithm>
 
@@ -23,3 +23,4 @@ int main()
 
 	cout << min(min(s[0], s[1]), min(s[2], s[3])) << "\n";
 }
+*/
