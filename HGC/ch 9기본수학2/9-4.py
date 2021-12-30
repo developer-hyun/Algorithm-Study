@@ -1,25 +1,47 @@
-# import math
+
+# n = 100
+# a=[]
+# for i in range(2,n+1):
+#     for j in range(2,i):
+#         if i%j == 0:
+#             break
+#     else:
+#         a.append(i)
 #
-# M = int(input())
-# N = int(input())
-# #n = 1000 # 2부터 1,000까지의 모든 수에 대하여 소수 판별
-# array = [True for i in range(N + 1)] # 처음엔 모든 수가 소수(True)인 것으로 초기화
-#
-# # 에라토스테네스의 체 알고리즘
-# for i in range(2, int(math.sqrt(N)) + 1): # 2부터 n의 제곱근까지의 모든 수를 확인하며
-#     if array[i] == True: # i가 소수인 경우 (남은 수인 경우)
-#         # i를 제외한 i의 모든 배수를 지우기
-#         j = 2
-#         while i * j <= N:
-#             array[i * j] = False
-#             j += 1
-#
-# # 모든 소수 출력
-# for i in range(2, N + 1):
-#     if array[i]:
-#         print(i, sep='/n')
+# M , N = map(int,input().split())
+# a = [False]*(M) + [True]*(N-M)
+# prime=[]
+# for i in range(M,N+1):
+#     if a[i]:
+#         prime.append(i)
+#     for j in range(2*i,N+1,i):
+#         a[j] = False
+# print(prime)
+# M , N = map(int,input().split())
+# for i in range(M,N+1):
+#     pr = True
+#     if i ==1:
+#         pr = False
+#     else:
+#         for j in range(2,i):
+#             if i%j ==0:
+#                 pr=False
+#                 break
+#     if pr:
+#         print(i)
+
+
 
 M , N = map(int,input().split())
 
 for i in  range(M,N+1):  #M부터 N까지
-    
+    if i == 1:
+        continue
+    for j in range(2,int(i**0.5)+1):
+        if i%j==0:
+            break
+    else:
+        print(i)
+
+#
+#print(int(3.56))
