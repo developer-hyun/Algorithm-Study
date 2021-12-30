@@ -27,11 +27,10 @@ namespace _2
                 return F;
 
             F = FMinus1 + FMinus2;
-            FMinus1 = FMinus2;
-            FMinus2 = F;
             count += 1;
             Console.WriteLine("F : {0}, FMinus1 : {1}, FMinus2 : {2}, count : {3}", F, FMinus1 ,FMinus2, count);
-
+            FMinus1 = FMinus2;
+            FMinus2 = F;
             return Fibonacci(N, F, count, FMinus1, FMinus2);
         }
     }
