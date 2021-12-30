@@ -1,7 +1,7 @@
 //백준 4153번 직각삼각형
 /*정렬하고 피타고라스 정리*/
 
-
+/*
 #include <iostream>
 #include <algorithm>
 
@@ -9,7 +9,6 @@ using namespace std;
 
 int main()
 {
-	//int x, y, z;
 	int w[3];
 
 	while (true)
@@ -32,3 +31,4 @@ int main()
 			cout << "wrong\n";
 	}
 }
+*/
