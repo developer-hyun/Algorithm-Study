@@ -2,7 +2,7 @@
 /*직사각형으로 만들려면 x축, y축에 수가 2개씩 있어야하므로
 그에 맞춰서 함수를 만들고 하나씩 구했다.*/
 
-
+/*
 #include <iostream>
 #include <algorithm>
 
@@ -43,3 +43,4 @@ int main()
 
 	cout << w << " " << h << "\n";
 }
+*/
