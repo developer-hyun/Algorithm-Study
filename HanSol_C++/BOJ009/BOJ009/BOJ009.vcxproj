@@ -145,6 +145,7 @@
     <ClCompile Include="math2_4.cpp" />
     <ClCompile Include="math2_5.cpp" />
     <ClCompile Include="math2_6.cpp" />
+    <ClCompile Include="math2_7.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
