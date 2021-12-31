@@ -1,6 +1,7 @@
 //백준 10872번 팩토리얼
 /*n! = n * (n-1) * ...*/
 
+	/*
 #include <iostream>
 
 using namespace std;
@@ -21,4 +22,4 @@ int main()
 	int result = fact(num);
 
 	cout << result << "\n";
-}
+}*/
