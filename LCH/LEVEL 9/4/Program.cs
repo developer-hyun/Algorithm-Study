@@ -10,6 +10,8 @@ namespace _4
     {
         static void Main(string[] args)
         {
+            StringBuilder sb = new StringBuilder();
+
             string input = Console.ReadLine();
             string[] inputdata = input.Split(' ');
             int M = Convert.ToInt32(inputdata[0]);
@@ -20,7 +22,7 @@ namespace _4
                 if (i == 1)
                     continue;
                 if (i == 2 | i == 3)
-                    desimalList.Add(i);
+                    sb.AppendFormat("{0}\n", i);
                 if (i % 2 == 0)
                     continue;
                 double sqrt = Math.Truncate(Math.Sqrt(i));
@@ -35,15 +37,14 @@ namespace _4
                     {
                         if (j == sqrt)
                         {
-                            desimalList.Add(i);
+                            sb.AppendFormat("{0}\n", i);
                         }
                     }
                 }
             }
-            foreach (var item in desimalList)
-            {
-                Console.WriteLine(item);
-            }
+            
+             Console.WriteLine(sb);
+            
             Console.ReadKey();
         }
     }
