@@ -1,0 +1,8 @@
+C:\Users\CHEONG HO\Documents\GitHub\Algorithm-Study\LCH\LEVEL 9\6\bin\Debug\6.exe.config
+C:\Users\CHEONG HO\Documents\GitHub\Algorithm-Study\LCH\LEVEL 9\6\bin\Debug\6.exe
+C:\Users\CHEONG HO\Documents\GitHub\Algorithm-Study\LCH\LEVEL 9\6\bin\Debug\6.pdb
+C:\Users\CHEONG HO\Documents\GitHub\Algorithm-Study\LCH\LEVEL 9\6\obj\Debug\6.csproj.AssemblyReference.cache
+C:\Users\CHEONG HO\Documents\GitHub\Algorithm-Study\LCH\LEVEL 9\6\obj\Debug\6.csproj.SuggestedBindingRedirects.cache
+C:\Users\CHEONG HO\Documents\GitHub\Algorithm-Study\LCH\LEVEL 9\6\obj\Debug\6.csproj.CoreCompileInputs.cache
+C:\Users\CHEONG HO\Documents\GitHub\Algorithm-Study\LCH\LEVEL 9\6\obj\Debug\6.exe
+C:\Users\CHEONG HO\Documents\GitHub\Algorithm-Study\LCH\LEVEL 9\6\obj\Debug\6.pdb
