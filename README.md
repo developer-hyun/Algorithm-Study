@@ -10,7 +10,7 @@
  * 당일 함께 1~2문제 풀이 및 코드리뷰 
  
 
-## ✔ Participant
+## 🧑‍💻 Participant
 <p>
   * <a href="https://github.com/CheongHo-Lee/" target="_blank">🐲Cheongho LEE</a>
 </p>
@@ -25,7 +25,7 @@
 </p>
 
    
-## ✔ Week
+## 📆 Week
 |주차|문제|총 문제수|
 |------|---|---|
 |1주차(2021.12.06~2021.12.12)|문자열|10|
