@@ -8,6 +8,7 @@
  * 일요일 합정역 카페에서 스터디 모임
  * 백준 유형별/단계별 문제 풀이 
  * 당일 함께 1~2문제 풀이 및 코드리뷰 
+ 
 
 ## ✔ Week
 |주차|문제|총 문제수|
@@ -18,16 +19,17 @@
 |4주차(2021.12.27~2022.01.02)|기본수학2, 재귀|15|
 |5주차(2022.01.03~2022.01.10)|브루트 포스, 정렬|15|
 
+
 ## ✔ Participant
 <p>
-  * <a href="https://github.com/CheongHo-Lee/" target="_blank">Cheongho LEE</a>
+  * <a href="https://github.com/CheongHo-Lee/" target="_blank">🐲Cheongho LEE</a>
 </p>
 <p>
-  * <a href="https://github.com/developer-hyun" target="_blank">developer-hyun</a>
+  * <a href="https://github.com/developer-hyun" target="_blank">🐴developer-hyun</a>
 </p>
 <p>
-  * <a href=https://github.com/nueob/" target="_blank">nueob</a>
+  * <a href=https://github.com/nueob/" target="_blank">🦐nueob</a>
 </p>
 <p>
-  * <a href="https://github.com/SolHaan" target="_blank">Sol Han</a>
+  * <a href="https://github.com/SolHaan" target="_blank">🐤Sol Han</a>
 </p>
