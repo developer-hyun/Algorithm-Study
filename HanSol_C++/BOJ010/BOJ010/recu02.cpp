@@ -2,7 +2,7 @@
 /*메인함수에서 for문을 돌려주면 
 처음부터 원하는 수까지 진행할 수 있다.*/
 
-	
+	/*
 #include <iostream>
 
 using namespace std;
@@ -29,4 +29,4 @@ int main()
 	}
 
 	cout << result << "\n";
-}
+}*/

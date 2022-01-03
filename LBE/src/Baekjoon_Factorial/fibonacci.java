@@ -8,11 +8,10 @@ public class fibonacci {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
-        if(n == 0) System.out.println(1);
-        else System.out.println(factorial(n));
+        System.out.println(fibonacci(n));
     }
-    public static int factorial (int n) {
-        if(n <= 1) return n;
-        else return n*factorial(n-1);
+    public static int fibonacci (int n) {
+        if(n<=1) return n;
+        else return fibonacci(n - 2) + fibonacci(n - 1);
     }
 }
