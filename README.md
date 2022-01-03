@@ -1,18 +1,9 @@
 # 🔥Algorithm-Study🔥
-
-
-
-
-
-
-
-
-
 > This project is a Coding Study.
 
 ![KakaoTalk_20220103_091355456_02](https://user-images.githubusercontent.com/79739183/147913580-09d79c39-3a76-4fac-9744-5e18950c2712.jpg)
 <br>
-
+<br>
 ## 🚀 Rule
  * 매주 정해진 문제들을 풀어오고 요점 및 핵심내용 공유
  * 일요일 합정역 카페에서 스터디 모임
