@@ -16,10 +16,10 @@
   <a target="_blank" href="https://github.com/CheongHo-Lee/" >🐲Cheongho LEE</a>
 </p>
 <p>
-  <a target="_blank" href="https://github.com/developer-hyun" >🐴developer-hyun</a>
+  <a target="_blank" href="https://github.com/developer-hyun" >🦈developer-hyun</a>
 </p>
 <p>
-  <a target="_blank" href=https://github.com/nueob/" >🦐nueob</a>
+  <a target="_blank" href=https://github.com/nueob/" >🦄nueob</a>
 </p>
 <p>
   <a target="_blank" href="https://github.com/SolHaan" >🐤Sol Han</a>
