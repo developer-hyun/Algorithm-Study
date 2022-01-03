@@ -5,3 +5,10 @@ C:\Users\CHEONG HO\Documents\GitHub\Algorithm-Study\LCH\LEVEL 9\5\obj\Debug\5.cs
 C:\Users\CHEONG HO\Documents\GitHub\Algorithm-Study\LCH\LEVEL 9\5\obj\Debug\5.csproj.CoreCompileInputs.cache
 C:\Users\CHEONG HO\Documents\GitHub\Algorithm-Study\LCH\LEVEL 9\5\obj\Debug\5.exe
 C:\Users\CHEONG HO\Documents\GitHub\Algorithm-Study\LCH\LEVEL 9\5\obj\Debug\5.pdb
+D:\Program Files (x86)\GitHub\Algorithm-Study\LCH\LEVEL 9\5\bin\Debug\5.exe.config
+D:\Program Files (x86)\GitHub\Algorithm-Study\LCH\LEVEL 9\5\bin\Debug\5.exe
+D:\Program Files (x86)\GitHub\Algorithm-Study\LCH\LEVEL 9\5\bin\Debug\5.pdb
+D:\Program Files (x86)\GitHub\Algorithm-Study\LCH\LEVEL 9\5\obj\Debug\5.csproj.AssemblyReference.cache
+D:\Program Files (x86)\GitHub\Algorithm-Study\LCH\LEVEL 9\5\obj\Debug\5.csproj.CoreCompileInputs.cache
+D:\Program Files (x86)\GitHub\Algorithm-Study\LCH\LEVEL 9\5\obj\Debug\5.exe
+D:\Program Files (x86)\GitHub\Algorithm-Study\LCH\LEVEL 9\5\obj\Debug\5.pdb
