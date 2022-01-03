@@ -13,16 +13,16 @@
 
 ## 🧑‍💻 Participant
 <p>
-  <a href="https://github.com/CheongHo-Lee/" target="_blank">🐲Cheongho LEE</a>
+  <a target="_blank" href="https://github.com/CheongHo-Lee/" >🐲Cheongho LEE</a>
 </p>
 <p>
-  <a href="https://github.com/developer-hyun" target="_blank">🐴developer-hyun</a>
+  <a target="_blank" href="https://github.com/developer-hyun" >🐴developer-hyun</a>
 </p>
 <p>
-  <a href=https://github.com/nueob/" target="_blank">🦐nueob</a>
+  <a target="_blank" href=https://github.com/nueob/" >🦐nueob</a>
 </p>
 <p>
-  <a href="https://github.com/SolHaan" target="_blank">🐤Sol Han</a>
+  <a target="_blank" href="https://github.com/SolHaan" >🐤Sol Han</a>
 </p>
 <br>
    
