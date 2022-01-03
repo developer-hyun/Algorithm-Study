@@ -18,8 +18,14 @@
 
 ## ✔ Participant
 <p>
-  <a href="https://github.com/CheongHo-Lee/" target="_blank">이청호</a>
-  <a href="https://github.com/developer-hyun" target="_blank">현기창</a>
-  <a href=https://github.com/nueob/" target="_blank">이보은</a>
-  <a href="https://github.com/SolHaan" target="_blank">한솔</a>
+  * <a href="https://github.com/CheongHo-Lee/" target="_blank">이청호</a>
+</p>
+<p>
+  * <a href="https://github.com/developer-hyun" target="_blank">현기창</a>
+</p>
+<p>
+  * <a href=https://github.com/nueob/" target="_blank">이보은</a>
+</p>
+<p>
+  * <a href="https://github.com/SolHaan" target="_blank">한솔</a>
 </p>
