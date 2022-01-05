@@ -14,3 +14,19 @@ D:\Program Files (x86)\GitHub\Algorithm-Study\LCH\LEVEL 10\4\obj\Debug\net5.0\4.
 D:\Program Files (x86)\GitHub\Algorithm-Study\LCH\LEVEL 10\4\obj\Debug\net5.0\ref\4.dll
 D:\Program Files (x86)\GitHub\Algorithm-Study\LCH\LEVEL 10\4\obj\Debug\net5.0\4.pdb
 D:\Program Files (x86)\GitHub\Algorithm-Study\LCH\LEVEL 10\4\obj\Debug\net5.0\4.genruntimeconfig.cache
+D:\Program Files (x86)\GitHub\Algorithm-Study\1. CheongHo LEE\LEVEL 10\4\bin\Debug\net5.0\4.exe
+D:\Program Files (x86)\GitHub\Algorithm-Study\1. CheongHo LEE\LEVEL 10\4\bin\Debug\net5.0\4.deps.json
+D:\Program Files (x86)\GitHub\Algorithm-Study\1. CheongHo LEE\LEVEL 10\4\bin\Debug\net5.0\4.runtimeconfig.json
+D:\Program Files (x86)\GitHub\Algorithm-Study\1. CheongHo LEE\LEVEL 10\4\bin\Debug\net5.0\4.runtimeconfig.dev.json
+D:\Program Files (x86)\GitHub\Algorithm-Study\1. CheongHo LEE\LEVEL 10\4\bin\Debug\net5.0\4.dll
+D:\Program Files (x86)\GitHub\Algorithm-Study\1. CheongHo LEE\LEVEL 10\4\bin\Debug\net5.0\ref\4.dll
+D:\Program Files (x86)\GitHub\Algorithm-Study\1. CheongHo LEE\LEVEL 10\4\bin\Debug\net5.0\4.pdb
+D:\Program Files (x86)\GitHub\Algorithm-Study\1. CheongHo LEE\LEVEL 10\4\obj\Debug\net5.0\4.csproj.AssemblyReference.cache
+D:\Program Files (x86)\GitHub\Algorithm-Study\1. CheongHo LEE\LEVEL 10\4\obj\Debug\net5.0\4.GeneratedMSBuildEditorConfig.editorconfig
+D:\Program Files (x86)\GitHub\Algorithm-Study\1. CheongHo LEE\LEVEL 10\4\obj\Debug\net5.0\4.AssemblyInfoInputs.cache
+D:\Program Files (x86)\GitHub\Algorithm-Study\1. CheongHo LEE\LEVEL 10\4\obj\Debug\net5.0\4.AssemblyInfo.cs
+D:\Program Files (x86)\GitHub\Algorithm-Study\1. CheongHo LEE\LEVEL 10\4\obj\Debug\net5.0\4.csproj.CoreCompileInputs.cache
+D:\Program Files (x86)\GitHub\Algorithm-Study\1. CheongHo LEE\LEVEL 10\4\obj\Debug\net5.0\4.dll
+D:\Program Files (x86)\GitHub\Algorithm-Study\1. CheongHo LEE\LEVEL 10\4\obj\Debug\net5.0\ref\4.dll
+D:\Program Files (x86)\GitHub\Algorithm-Study\1. CheongHo LEE\LEVEL 10\4\obj\Debug\net5.0\4.pdb
+D:\Program Files (x86)\GitHub\Algorithm-Study\1. CheongHo LEE\LEVEL 10\4\obj\Debug\net5.0\4.genruntimeconfig.cache

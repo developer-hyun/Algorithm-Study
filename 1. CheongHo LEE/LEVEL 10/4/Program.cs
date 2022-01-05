@@ -10,11 +10,8 @@ namespace _4
 
         public static void Hanoi(int h, int start, int assist, int goal)
         {
-            Console.WriteLine("{0},{1},{2},{3}" , h , start , assist , goal);
             if (h == 1)
             {
-                Console.WriteLine("높이가 1이에요");
-                Console.WriteLine("높이가 1일때 {0},{1},{2},{3}", h, start, assist, goal);
                 sb.Append($"{start} {goal}\n");
                 cnt++;
             }
