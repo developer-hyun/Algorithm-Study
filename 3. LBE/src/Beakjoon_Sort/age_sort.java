@@ -1,10 +1,10 @@
-package com.company;
+package Beakjoon_Sort;
 
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Scanner;
 
-public class Main{
+public class age_sort{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -28,4 +28,3 @@ public class Main{
         }
     }
 }
-
