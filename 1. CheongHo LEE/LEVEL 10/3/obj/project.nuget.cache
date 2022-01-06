@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "p0B8KZQwBpfZcvOI5l1HJRKNi0r3qgpfM+nRLozNtN5tPCtQfKrICyAdn18AXWzygn4t39Enpaxputgk3rDAbQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\CHEONG HO\\Documents\\GitHub\\Algorithm-Study\\LCH\\LEVEL 10\\3\\3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\CHEONG HO\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512",
+    "C:\\Users\\CHEONG HO\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\CHEONG HO\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\CHEONG HO\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
