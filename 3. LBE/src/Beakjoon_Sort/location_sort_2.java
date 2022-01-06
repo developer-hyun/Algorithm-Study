@@ -1,4 +1,4 @@
-package com.company;
+package Beakjoon_Sort;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -11,7 +11,7 @@ import java.util.Scanner;
     1) Comparable - compareTo(T o) : 자기 자신과 매개 변수 객체를 비교
     2) Comparator - compare(T o1,T o2) : 두 매개변수 객체를 비교
 */
-public class Main{
+public class location_sort_2{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -80,3 +80,4 @@ public class Main{
 //        return index;
 //    }
 //}
+
