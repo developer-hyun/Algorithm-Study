@@ -1,8 +1,8 @@
-package com.company;
+package Beakjoon_Sort;
 
 import java.util.*;
 
-public class Main{
+public class number_sort2{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         StringBuffer sb = new StringBuffer();
@@ -18,4 +18,3 @@ public class Main{
         System.out.println(sb);
     }
 }
-
