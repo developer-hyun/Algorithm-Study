@@ -1,4 +1,4 @@
-package com.company;
+package Beakjoon_Sort;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -12,7 +12,7 @@ import java.util.*;
     linkedhashmap : 삽입 순서에 따라 정렬
     hashtable: key/value에 null를 넣을 수 없음
  */
-public class Main{
+public class coordinate_compression {
     public static void main(String[] args) throws IOException  {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuffer sb = new StringBuffer();
@@ -68,4 +68,3 @@ public class Main{
 //        System.out.println(sb);
 //    }
 //}
-
