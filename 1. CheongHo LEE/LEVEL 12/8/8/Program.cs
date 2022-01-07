@@ -12,25 +12,23 @@ namespace _6
         {
             StringBuilder sb = new StringBuilder();
             int N = Convert.ToInt32(Console.ReadLine());
-            List<List<int>> points = new List<List<int>>();
-            int[,] p = new int[N, 2];
+            List<string> words = new List<string>();
 
             for (int i = 0; i < N; i++)
             {
-                string input = Console.ReadLine();
-                string[] inputdata = input.Split(' ');
-                points.Add(new List<int> { Convert.ToInt32(inputdata[0]), Convert.ToInt32(inputdata[1]) });
+                words.Add(Console.ReadLine());
             }
-
-            var output = from point in points
-                         orderby point[1], point[0]
-                         select point[0] + " " + point[1];
+            words = words.Distinct().ToList(); // 여기를 잘 기억하자
+            var output = from word in words
+                         orderby word.Length, word
+                         select word;
 
             foreach (var item in output)
             {
                 sb.AppendLine(item);
             }
             Console.WriteLine(sb);
+
         }
     }
 }
