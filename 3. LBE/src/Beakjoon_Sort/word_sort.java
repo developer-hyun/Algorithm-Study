@@ -20,7 +20,6 @@ public class word_sort{
                 return o.length() - o2.length();
             }
         });
-
         for(int i=0;i<n;i++) {
             if(i == 0) System.out.println(location[i]);
             else {
