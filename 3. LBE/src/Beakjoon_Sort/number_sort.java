@@ -1,8 +1,9 @@
-package com.company;
+package Beakjoon_Sort;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.Scanner;
 
-public class Main{
+public class number_sort{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         StringBuffer sb = new StringBuffer();
