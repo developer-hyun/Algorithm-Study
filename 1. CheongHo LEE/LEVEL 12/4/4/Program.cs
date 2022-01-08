@@ -30,42 +30,36 @@ namespace _4
 
             Console.ReadKey();
         }
-        public static int Mode(int[] modeArray, int N) //최빈값
+        public static int Mode(int[] array, int N) //최빈값
         {
-
+            int mode = 0;
             int output = 0;
+            bool check = false;
+            int[] tmp = new int[N];
+            for (int i = 0; i < array.Length; i++)
+            {
+                int count = 0;
+                for (int j = 0; j < array.Length; j++)
+                {
+                    if (array[i] == array[j])
+                    {
+                        count += 1;
+                        tmp[i] += 1;
+                    }
+                }
+                if (count == mode && output != array[i] && check == false)
+                {
+                    output = array[i];
+                    check = true;
+                }
+                else if (count > mode)
+                {
+                    mode = count;
+                    output = array[i];
+                    check = false;
+                }
+            }
             return output;
         }
-        //public static int Mode(int[] array, int N) //최빈값
-        //{
-        //    int mode = 0;
-        //    int output = 0;
-        //    bool check = false;
-        //    int[] tmp = new int[N];
-        //    for (int i = 0; i < array.Length; i++)
-        //    {
-        //        int count = 0;
-        //        for (int j = 0; j < array.Length; j++)
-        //        {
-        //            if (array[i] == array[j])
-        //            {
-        //                count += 1;
-        //                tmp[i] += 1;
-        //            }                   
-        //        }
-        //        if (count == mode && output != array[i] && check == false)
-        //        {
-        //            output = array[i];
-        //            check = true;
-        //        }
-        //        else if (count > mode)
-        //        {
-        //            mode = count;
-        //            output = array[i];
-        //            check = false;
-        //        }
-        //    } 
-        //    return output;
-        //}
     }
 }

@@ -11,18 +11,36 @@ namespace _1
         static void Main(string[] args)
         {
             int N = Convert.ToInt32(Console.ReadLine());
-            int[] array = new int[N];
+            StringBuilder sb = new StringBuilder();
+            int[] arrays = new int[N];
 
             for (int i = 0; i < N; i++)
             {
-                array[i] = Convert.ToInt32(Console.ReadLine());
+                arrays[i] = Convert.ToInt32(Console.ReadLine());
             }
-            Array.Sort(array);
 
-            foreach (var item in array)
+            var output = from array in arrays
+                         orderby Convert.ToInt32(array)
+                         select array;
+
+            foreach (var item in output)
             {
-                Console.WriteLine(item);
+                sb.AppendLine(item.ToString());
             }
+
+            Console.WriteLine(sb);
+
+            Console.ReadKey();
+            //for (int i = 0; i < N; i++)
+            //{
+            //    array[i] = Convert.ToInt32(Console.ReadLine());
+            //}
+            //Array.Sort(array);
+
+            //foreach (var item in array)
+            //{
+            //    Console.WriteLine(item);
+            //}
         }
     }
 }

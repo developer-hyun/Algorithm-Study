@@ -22,7 +22,7 @@ namespace _9
             }
 
             var output = from point in points
-                         orderby point[0], point[2] //나이순, 나이가 같으면 인덱스 순
+                         orderby Convert.ToInt32(point[0]), point[2] //나이순, 나이가 같으면 인덱스 순
                          select point[0] + " " + point[1];
 
             foreach (var item in output)
