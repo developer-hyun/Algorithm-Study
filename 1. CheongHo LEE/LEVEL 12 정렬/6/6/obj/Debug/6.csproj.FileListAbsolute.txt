@@ -1,0 +1,7 @@
+D:\Program Files (x86)\GitHub\Algorithm-Study\1. CheongHo LEE\LEVEL 12\6\6\bin\Debug\6.exe.config
+D:\Program Files (x86)\GitHub\Algorithm-Study\1. CheongHo LEE\LEVEL 12\6\6\bin\Debug\6.exe
+D:\Program Files (x86)\GitHub\Algorithm-Study\1. CheongHo LEE\LEVEL 12\6\6\bin\Debug\6.pdb
+D:\Program Files (x86)\GitHub\Algorithm-Study\1. CheongHo LEE\LEVEL 12\6\6\obj\Debug\6.csproj.AssemblyReference.cache
+D:\Program Files (x86)\GitHub\Algorithm-Study\1. CheongHo LEE\LEVEL 12\6\6\obj\Debug\6.csproj.CoreCompileInputs.cache
+D:\Program Files (x86)\GitHub\Algorithm-Study\1. CheongHo LEE\LEVEL 12\6\6\obj\Debug\6.exe
+D:\Program Files (x86)\GitHub\Algorithm-Study\1. CheongHo LEE\LEVEL 12\6\6\obj\Debug\6.pdb
