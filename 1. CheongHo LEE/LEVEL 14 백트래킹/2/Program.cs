@@ -22,7 +22,7 @@ namespace beakjoon
             if (cnt == length)
             {
                 StringBuilder sb = new StringBuilder();
-
+                
                 for (int i = 0; i < length; i++)
                 {
                      sb.Append($"{arr[i]} ");
@@ -44,13 +44,19 @@ namespace beakjoon
                     //    visited[j] = false;
                     //}
                     // 중복이 아닐 시
+                    //Console.WriteLine("i : " + i + " visited[i] : " + visited[i]);
                     if (!visited[i])
                     {
-                        visited[i] = true;
                         if ((cnt > 0 && arr[cnt - 1] < i) || cnt == 0)
+                        {
+                            visited[i] = true;
                             arr[cnt] = i;
+                        }    
                         else
+                        {
+                            //Console.WriteLine("pass");
                             continue;
+                        }
                         // 재귀 호출
                         DFS(cnt + 1);
 
