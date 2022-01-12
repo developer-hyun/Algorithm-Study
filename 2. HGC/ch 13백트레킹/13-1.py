@@ -7,8 +7,7 @@
 
 def backtracking():
     if len(treeList) == M:
-        printList1 = printList.append(treeList)
-        print(printList1)
+        printList.append(copy.deepcopy(treeList))
        # return printList1
 
     for i in range(1,N+1):
@@ -17,20 +16,24 @@ def backtracking():
         treeList.append(i)
         backtracking()
         treeList.pop()
-#
-# def print(L):
-#     for j in L:
-#         print(j[0], j[1])
+
+def printResult(L):
+    for j in L:
+        j = map(str,j)
+        print(" ".join(j))
 
 
 if __name__ == '__main__':
     import sys
+    import copy
 
     N, M = map(int, sys.stdin.readline().split())  # N,M받기
     printList=[]
     treeList=[]
     backtracking()
-    print(printList)
+    printResult(printList)
+
+#deepcopy는 이중배열이상의 부분까지도 깊은복사 copy는  단순 리스트일경우만 깊은복사
 
 
 #지금 pop하면 printList에 들어있는 treeList도 제거가되는데
