@@ -1,8 +1,8 @@
-package com.company;
+package Baekjoon_backtracking;
 
 import java.util.*;
 
-public class Main {
+public class Operator_Push {
     static Stack<Integer> stack = new Stack<>();
     static HashMap<String,Integer> operator = new HashMap<String,Integer>();
     static int[] visit = new int[4];
@@ -29,13 +29,13 @@ public class Main {
         int second = stack.pop();
         switch (oper) {
             case "+" : result = first + second;
-                        break;
+                break;
             case "-" : result = first - second;
-                        break;
+                break;
             case "*" : result = first * second;
-                        break;
+                break;
             case "/" : result = first /  second;
-                        break;
+                break;
         }
         if(result > max) {
             max = result;
@@ -46,7 +46,3 @@ public class Main {
         }
     }
 }
-
-
-
-

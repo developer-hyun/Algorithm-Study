@@ -11,7 +11,14 @@ import java.util.StringTokenizer;
 public class N_M_2 {
     static int m,n;
     static int list[],check[];
-
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        n = sc.nextInt();
+        m = sc.nextInt();
+        check = new int[n+1];
+        list = new int [n+1];
+        dfs(0,0);
+    }
     static void dfs(int idx,int cnt) {
 
         if(cnt == m) {
@@ -29,13 +36,5 @@ public class N_M_2 {
             dfs(i,cnt+1);
             check[i]=0;
         }
-    }
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        n = sc.nextInt();
-        m = sc.nextInt();
-        check = new int[n+1];
-        list = new int [n+1];
-        dfs(0,0);
     }
 }
