@@ -1,0 +1,8 @@
+C:\Users\CHEONG HO\Documents\GitHub\Algorithm-Study\1. CheongHo LEE\LEVEL 14 백트래킹\8\bin\Debug\8.exe.config
+C:\Users\CHEONG HO\Documents\GitHub\Algorithm-Study\1. CheongHo LEE\LEVEL 14 백트래킹\8\bin\Debug\8.exe
+C:\Users\CHEONG HO\Documents\GitHub\Algorithm-Study\1. CheongHo LEE\LEVEL 14 백트래킹\8\bin\Debug\8.pdb
+C:\Users\CHEONG HO\Documents\GitHub\Algorithm-Study\1. CheongHo LEE\LEVEL 14 백트래킹\8\obj\Debug\8.csproj.AssemblyReference.cache
+C:\Users\CHEONG HO\Documents\GitHub\Algorithm-Study\1. CheongHo LEE\LEVEL 14 백트래킹\8\obj\Debug\8.csproj.SuggestedBindingRedirects.cache
+C:\Users\CHEONG HO\Documents\GitHub\Algorithm-Study\1. CheongHo LEE\LEVEL 14 백트래킹\8\obj\Debug\8.csproj.CoreCompileInputs.cache
+C:\Users\CHEONG HO\Documents\GitHub\Algorithm-Study\1. CheongHo LEE\LEVEL 14 백트래킹\8\obj\Debug\8.exe
+C:\Users\CHEONG HO\Documents\GitHub\Algorithm-Study\1. CheongHo LEE\LEVEL 14 백트래킹\8\obj\Debug\8.pdb
