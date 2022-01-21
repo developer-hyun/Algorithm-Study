@@ -1,11 +1,10 @@
-package com.company;
+package Beakjoon_Dynamic;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.*;
 
-public class Main {
+public class Fibonacci {
 
     static int one;
     static int zero;
@@ -43,7 +42,3 @@ public class Main {
         }
     }
 }
-
-
-
-
