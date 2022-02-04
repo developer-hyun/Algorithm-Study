@@ -1,8 +1,8 @@
-package com.company;
+package Beakjoon_Greedy;
 
 import java.util.Scanner;
 
-public class Main {
+public class coin_0 {
     public static void main(String[] args)  {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
