@@ -13,3 +13,4 @@ D:\Program Files (x86)\GitHub\Algorithm-Study\1. CheongHo LEE\LEVEL 16 그리디
 D:\Program Files (x86)\GitHub\Algorithm-Study\1. CheongHo LEE\LEVEL 16 그리디 알고리즘\4\4\obj\Debug\net5.0\ref\4.dll
 D:\Program Files (x86)\GitHub\Algorithm-Study\1. CheongHo LEE\LEVEL 16 그리디 알고리즘\4\4\obj\Debug\net5.0\4.pdb
 D:\Program Files (x86)\GitHub\Algorithm-Study\1. CheongHo LEE\LEVEL 16 그리디 알고리즘\4\4\obj\Debug\net5.0\4.genruntimeconfig.cache
+D:\Program Files (x86)\GitHub\Algorithm-Study\1. CheongHo LEE\LEVEL 16 그리디 알고리즘\4\4\obj\Debug\net5.0\4.csproj.AssemblyReference.cache
