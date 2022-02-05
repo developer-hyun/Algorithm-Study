@@ -10,23 +10,23 @@ namespace _5
         static void Main(string[] args)
         {
             int N = Convert.ToInt32(Console.ReadLine());
-            int[] d = Array.ConvertAll(Console.ReadLine().Split(' '), int.Parse);
-            int[] won = Array.ConvertAll(Console.ReadLine().Split(' '), int.Parse);
+            long[] d = Array.ConvertAll(Console.ReadLine().Split(' '), long.Parse);
+            long[] won = Array.ConvertAll(Console.ReadLine().Split(' '), long.Parse);
 
             //최소 주유 가격
-            int minWon = won[0];
+            long minWon = won[0];
             //결과
-            BigInteger output = new BigInteger();                         
+            long output = 0;                     
 
             for (int i = 0; i < d.Length; i++)
             {
                 if(minWon < won[i])
                 {
-                    output += BigInteger.Parse(minWon.ToString()) * BigInteger.Parse(d[i].ToString());
+                    output += minWon * d[i];
                 }
                 else
                 {
-                    output += BigInteger.Parse(won[i].ToString()) * BigInteger.Parse(d[i].ToString());
+                    output +=won[i] * d[i];
                     minWon = won[i];
                 }
             }         
