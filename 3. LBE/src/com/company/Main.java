@@ -4,26 +4,27 @@ import java.io.*;
 import java.util.*;
 
 public class Main {
+    static Stack<Character> stack = new Stack<>();
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        Stack<Integer> stack = new Stack<>();
         int n = Integer.parseInt(br.readLine());
-        int result = 0;
         for(int i=0;i<n;i++) {
-            StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-            int order = Integer.parseInt(st.nextToken());
-            switch (order) {
-                case 0 :
-                    result -= stack.peek();
-                    stack.pop();
-                    break;
-                default:
-                    result += order;
-                    stack.push(order);
-                    break;
-
+            String bracket = br.readLine();
+            System.out.println(inspect_VPS(bracket));
+            stack.clear();
+        }
+    }
+    public static String inspect_VPS(String bracket) {
+        if(bracket.charAt(0) == ')') return "NO";
+        stack.push(bracket.charAt(0));
+        for(int i=1;i<bracket.length();i++) {
+            if(bracket.charAt(i) == '(') stack.push(bracket.charAt(i));
+            else {
+                if(stack.size() > 0) stack.pop();
+                else return "NO";
             }
         }
-        System.out.println(result);
+        if(stack.size() == 0) return "YES";
+        return "NO";
     }
 }
