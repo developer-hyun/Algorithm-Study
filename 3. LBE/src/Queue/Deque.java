@@ -1,13 +1,16 @@
-package com.company;
+package Queue;
 
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.LinkedList;
+import java.util.StringTokenizer;
 
-public class Main {
+public class Deque {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuffer sb = new StringBuffer();
-        Deque<Integer> deque = new LinkedList<>();
+        java.util.Deque<Integer> deque = new LinkedList<>();
         int n = Integer.parseInt(br.readLine());
         int value = 0;
         for (int i = 0; i < n; i++) {
