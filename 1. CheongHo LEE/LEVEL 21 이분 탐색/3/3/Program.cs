@@ -28,7 +28,7 @@ namespace _3
             long end = lengthSum / N;
             long mid = (start + end) / 2;
 
-            while (start != mid && mid != end)
+            while (start <= end)
             {
                 long count = 0;
                 
@@ -42,30 +42,17 @@ namespace _3
                 //start = mid
                 if (count >= N)
                 {
-                    start = mid;
+                    start = mid+1;
                     mid = (start + end) / 2;
                 }
                 //end = mid
                 else if (count < N)
                 {
-                    end = mid;
+                    end = mid-1;
                     mid = (start + end) / 2;
                 }
             }
-            //start == mid 일때 while문 빠져나가니 end가 혹시 답일경우는 체크하지를 못한다
-            //그래서 end가 답일 경우도 혹시 모르니 한번 체크해준다.
-            long check = 0;
-            for (int i = 0; i < K; i++)
-            {
-                check += lengthArr[i] / end;
-            }
-
-            if (check >= N)
-            {
-                Console.WriteLine(end);
-            }
-            else 
-                Console.WriteLine(mid);
+            Console.WriteLine(mid);
         }
     }
 }
