@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Text;
-namespace _1
+namespace _2
 {
     class Program
     {
@@ -13,18 +13,19 @@ namespace _1
 
         static public void BinarySearch()
         {
-            
+
             Array.Sort(A); // A = {1 2 3 4 5}
             for (int i = 0; i < M; i++)
             {
-                int index = Array.BinarySearch(A, M_Array[i]);
-                if(index < 0)
+                int index = Array.BinarySearch(A,0,A.Length, M_Array[i]);
+                //Console.WriteLine("index : " + index);
+                if (index < 0)
                 {
-                    sb.AppendLine("0");
+                    sb.Append("0 ");
                 }
                 else
                 {
-                    sb.AppendLine("1");
+                    sb.Append(index+ " ");
                 }
 
                 //내가 찾고자 하는 값
@@ -46,3 +47,4 @@ namespace _1
         }
     }
 }
+
