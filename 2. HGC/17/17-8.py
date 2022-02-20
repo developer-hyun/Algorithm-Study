@@ -13,9 +13,14 @@ for i in range(N):
         q =deque()
 
     point=0
+    cnt=0
     for j in func:
         if j=="R":
-            q.reverse()
+             if cnt+1<=len(func):
+                 if func[cnt] != func[cnt+1]:
+                    q.reverse()
+            #print(q)
+        cnt += 1
         if j=="D":
             if q:
                 q.popleft()
