@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Program Files (x86)\\GitHub\\Algorithm-Study\\1. CheongHo LEE\\LEVEL 24 DFS와 BFS\\1\\2\\2.csproj": {}
+    "D:\\Program Files (x86)\\GitHub\\Algorithm-Study\\1. CheongHo LEE\\LEVEL 24 DFS와 BFS\\DFS와 BFS\\2\\2.csproj": {}
   },
   "projects": {
-    "D:\\Program Files (x86)\\GitHub\\Algorithm-Study\\1. CheongHo LEE\\LEVEL 24 DFS와 BFS\\1\\2\\2.csproj": {
+    "D:\\Program Files (x86)\\GitHub\\Algorithm-Study\\1. CheongHo LEE\\LEVEL 24 DFS와 BFS\\DFS와 BFS\\2\\2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Program Files (x86)\\GitHub\\Algorithm-Study\\1. CheongHo LEE\\LEVEL 24 DFS와 BFS\\1\\2\\2.csproj",
+        "projectUniqueName": "D:\\Program Files (x86)\\GitHub\\Algorithm-Study\\1. CheongHo LEE\\LEVEL 24 DFS와 BFS\\DFS와 BFS\\2\\2.csproj",
         "projectName": "2",
-        "projectPath": "D:\\Program Files (x86)\\GitHub\\Algorithm-Study\\1. CheongHo LEE\\LEVEL 24 DFS와 BFS\\1\\2\\2.csproj",
+        "projectPath": "D:\\Program Files (x86)\\GitHub\\Algorithm-Study\\1. CheongHo LEE\\LEVEL 24 DFS와 BFS\\DFS와 BFS\\2\\2.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\Program Files (x86)\\GitHub\\Algorithm-Study\\1. CheongHo LEE\\LEVEL 24 DFS와 BFS\\1\\2\\obj\\",
+        "outputPath": "D:\\Program Files (x86)\\GitHub\\Algorithm-Study\\1. CheongHo LEE\\LEVEL 24 DFS와 BFS\\DFS와 BFS\\2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
