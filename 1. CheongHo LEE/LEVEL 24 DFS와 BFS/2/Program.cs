@@ -4,14 +4,13 @@ namespace _2
 {
     class Program
     {
-        static int[] input;
-
         static int N;
         static int M;
-        static int V;
 
-        static public int[,] map = new int[1001, 1001];
-        static public bool[] visited = new bool[1001];
+        static int count;
+
+        static public int[,] map = new int[101, 101];
+        static public bool[] visited = new bool[101];
 
         static public Queue<int> queue = new Queue<int>();
 
@@ -22,30 +21,18 @@ namespace _2
                 visited[i] = false;
             }
         }
-        static void DFS(int V)
+        static void BFS()
         {
-            visited[V] = true;
+            queue.Enqueue(1);
+            visited[1] = true;
 
-            Console.Write(V + " ");
-            for (int i = 1; i <= N; i++)
-            {
-                if (map[V, i] == 1 && visited[i] == false)
-                {
-                    DFS(i);
-                }
-            }
-        }
-        static void BFS(int V)
-        {
-            queue.Enqueue(V);
-            visited[V] = true;
+            int start;
 
-            int start = V;
             while (queue.Count != 0)
             {
                 //큐에서 나오는 값을 시작변수로 계속 바꿔줘야함
                 start = queue.Dequeue();
-                Console.Write(start + " ");
+                count++;
                 for (int i = 1; i <= N; i++)
                 {
                     if (map[start, i] == 1 && visited[i] == false)
@@ -58,10 +45,8 @@ namespace _2
         }
         static void Main(string[] args)
         {
-            input = Array.ConvertAll(Console.ReadLine().Split(' '), int.Parse);
-            N = input[0];
-            M = input[1];
-            V = input[2];
+            N = Convert.ToInt32(Console.ReadLine());
+            M = Convert.ToInt32(Console.ReadLine());
 
             for (int i = 0; i < M; i++)
             {
@@ -71,10 +56,8 @@ namespace _2
             }
 
             Reset();
-            DFS(V);
-            Console.WriteLine();
-            Reset();
-            BFS(V);
+            BFS();
+            Console.WriteLine(count-1);
         }
     }
 }
