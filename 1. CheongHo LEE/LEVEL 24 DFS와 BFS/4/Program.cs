@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-namespace _3
+namespace _4
 {
     class Program
     {
@@ -11,9 +11,9 @@ namespace _3
         //단지내의 집의 수 저장 행렬
         static int[] houseCount = new int[1000];
         //방문 확인 행렬
-        static bool[,] visited = new bool[26,26];
+        static bool[,] visited = new bool[26, 26];
 
-        static Queue<(int,int)> queue = new Queue<(int,int)>();
+        static Queue<(int, int)> queue = new Queue<(int, int)>();
 
         static int[] dx = { -1, 1, 0, 0 };
         static int[] dy = { 0, 0, -1, 1 };
@@ -22,7 +22,7 @@ namespace _3
         static int count = 0;
         //단지내의 집수
         static int count2 = 0;
-        
+
         static void Reset() //초기화
         {
             for (int i = 1; i <= N; i++)
@@ -33,11 +33,11 @@ namespace _3
                 }
             }
         }
-        static void BFS(int x, int y,int count)
+        static void BFS(int x, int y, int count)
         {
             count2 = 0;
-            queue.Enqueue((x,y));
-            visited[x,y] = true;
+            queue.Enqueue((x, y));
+            visited[x, y] = true;
 
             while (queue.Count != 0)
             {
@@ -60,7 +60,7 @@ namespace _3
                         continue;
                     visited[curx, cury] = true;
                     queue.Enqueue((curx, cury));
-                }                
+                }
             }
             //단지내의 집 수 저장 나중에 오름차순 정렬해야함
             houseCount[count - 1] = count2;
@@ -76,7 +76,7 @@ namespace _3
                 string input = Console.ReadLine();
                 for (int j = 0; j < input.Length; j++)
                 {
-                    map[i, j+1] = Convert.ToInt32((input[j].ToString()));
+                    map[i, j + 1] = Convert.ToInt32((input[j].ToString()));
                 }
             }
 
@@ -97,11 +97,11 @@ namespace _3
             {
                 for (int j = 1; j <= N; j++)
                 {
-                    if(map[i,j] == 1 && visited[i,j] == false)
+                    if (map[i, j] == 1 && visited[i, j] == false)
                     {
                         //총 단지의 수 확인용
                         count++;
-                        BFS(i,j,count);
+                        BFS(i, j, count);
                     }
                 }
             }
