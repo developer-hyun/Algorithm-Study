@@ -38,7 +38,6 @@ void bfs() {
 			if (n_x < 0 || n_x >= n || n_y < 0 || n_y >= m) continue;
 
 			if (map[n_x][n_y] == 0) { //익지 않은 토마토라면
-				q.push(make_pair(n_x, n_y));
 				map[n_x][n_y] = map[x][y] + 1; //방문 체크
 				q.push({ n_x, n_y });
 			}
