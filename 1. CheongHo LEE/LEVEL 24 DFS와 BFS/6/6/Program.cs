@@ -96,7 +96,8 @@ namespace _6
                     }
                 }
             }
-            BFS(queue.Peek().Item1,queue.Peek().Item2);
+            if(queue.Count != 0)
+                BFS(queue.Peek().Item1,queue.Peek().Item2);
             //Console.WriteLine("----------기본 맵 배열-----------");
             //for (int i = 0; i <= N; i++)
             //{
