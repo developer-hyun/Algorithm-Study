@@ -89,9 +89,19 @@ namespace _3
             Reset();
 
             //map배열을 순회하면서 단지를 찾음
-            //단지를 찾는순간 bfs를 돌아 단지내의 집수가 몇인지 찾음
             BFS(0, 0);
+            
+            //Console.WriteLine("----------기본 맵 배열-----------");
 
+            //for (int i = 0; i < N; i++)
+            //{
+            //    for (int j = 0; j < M; j++)
+            //    {
+            //        Console.Write(map[i, j] + " ");
+            //    }
+            //    Console.WriteLine();
+            //}
+            //Console.WriteLine("----------거리 맵 배열-----------");
             //for (int i = 0; i < N; i++)
             //{
             //    for (int j = 0; j < M; j++)
