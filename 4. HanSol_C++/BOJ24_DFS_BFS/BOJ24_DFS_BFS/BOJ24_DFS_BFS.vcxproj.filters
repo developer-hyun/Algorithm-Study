@@ -36,5 +36,11 @@
     <ClCompile Include="dfsbfs07.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="dfsbfs08.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="dfsbfs09.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
