@@ -1,27 +1,52 @@
 package com.company;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.StringTokenizer;
+import java.io.*;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringBuffer sb = new StringBuffer();
+        Deque<Integer> deque = new LinkedList<>();
         int n = Integer.parseInt(br.readLine());
-        int[] atm = new int[n];
-        StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-        for(int i=0;i<n;i++) {
-            atm[i] = Integer.parseInt(st.nextToken());
+        int value = 0;
+        for (int i = 0; i < n; i++) {
+            StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+            String order = st.nextToken();
+            switch (order) {
+                case "push_front":
+                    value = Integer.parseInt(st.nextToken());
+                    deque.addFirst(value);
+                    break;
+                case "push_back":
+                    value = Integer.parseInt(st.nextToken());
+                    deque.addLast(value);
+                    break;
+                case "pop_front":
+                    if (deque.isEmpty()) sb.append("-1").append("\n");
+                    else sb.append(deque.removeFirst()).append("\n");
+                    break;
+                case "pop_back":
+                    if (deque.isEmpty()) sb.append("-1").append("\n");
+                    else sb.append(deque.removeLast()).append("\n");
+                    break;
+                case "size":
+                    sb.append(deque.size()).append("\n");
+                    break;
+                case "empty":
+                    if (deque.isEmpty()) sb.append(1).append("\n");
+                    else sb.append(0).append("\n");
+                    break;
+                case "front":
+                    if (deque.isEmpty()) sb.append("-1").append("\n");
+                    else sb.append(deque.peek()).append("\n");
+                    break;
+                case "back" :
+                    if (deque.isEmpty()) sb.append("-1").append("\n");
+                    else sb.append(deque.peekLast()).append("\n");
+                    break;
+            }
         }
-        Arrays.sort(atm);
-        int sum = 0;
-        int total = 0;
-        for(int i=0;i<n;i++) {
-            sum += atm[i];
-            total += sum;
-        }
-        System.out.println(total);
+        System.out.println(sb.toString());
     }
 }
